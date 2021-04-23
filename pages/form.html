@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../asset/css/style.css" />
+    <style>
+      .navbar {
+        -webkit-box-shadow: 0 8px 6px -6px #999;
+        -moz-box-shadow: 0 8px 6px -6px #999;
+        box-shadow: 0 8px 6px -6px #999;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Nav Bar -->
+    <div class="navbar">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#">Profile</a></li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <h1>Form</h1>
+      <div class="box">
+        <form action="/">
+          <label for="fname">First Name:</label>
+          <input type="text" name="fname" />
+          <br />
+          <label for="lname">Last Name:</label>
+          <input type="text" />
+          <br />
+          <label for="dob">Date of Birth:</label>
+          <input type="date" /> <br />
+
+          <label for="gender">Gender:</label> <br>
+          <input type="radio" name="gender" id="male" />
+          <label for="male">Male</label> <br />
+          <input type="radio" name="gender" id="female" />
+          <label for="female">Female</label> <br />
+          <input type="radio" name="gender" id="others" />
+          <label for="others">Others</label> <br />
+
+          <label for="designation">Designation:</label>
+          <input type="text" /> <br />
+
+          <label for="expirence">Expirence:</label>
+          <input type="number" placeholder="Number input" />
+          <br />
+          <label for="skills">Skills:</label> <br />
+          <input type="checkbox" id="ruby" name="ruby" />
+          <label for="ruby">Ruby</label> <br />
+          <input type="checkbox" name="expressjs" id="expressjs" />
+          <label for="expressjs">Express.JS</label> <br />
+          <input type="checkbox" name="reactjs" id="reactjs" />
+          <label for="reactjs">React.JS</label> <br />
+          <input type="checkbox" name="laravel" id="laravel" />
+          <label for="laravel">Laravel</label> <br />
+          <input type="checkbox" name="django" id="django" />
+          <label for="django">Django</label> <br />
+          <input type="checkbox" name="flutter" id="flutter" />
+          <label for="flutter">Flutter</label> <br />
+          <input type="checkbox" name="reactnative" id="reactnative" />
+          <label for="reactnative">React Native</label> <br />
+          <input type="checkbox" name="angular" id="angular" />
+          <label for="angular">Angular</label> <br />
+          <input type="checkbox" name="javascript" id="javascript" />
+          <label for="javascript">Javascript</label> <br />
+
+          <label for="resume">Attach Resume</label>
+          <input type="file" /> <br />
+
+          <label for="textarea">Tell us About You</label>
+          <textarea
+            name="textarea"
+            id="textarea"
+            cols="20"
+            rows="5"
+            style="vertical-align: middle"
+          ></textarea>
+          <br />
+
+          <input type="submit" class="btn" /> <input type="reset" class="btn" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

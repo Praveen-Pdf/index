@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../asset/css/style.css" />
+    <style>
+        .navbar{
+            -webkit-box-shadow: 0 8px 6px -6px #999;
+            -moz-box-shadow: 0 8px 6px -6px #999;
+            box-shadow: 0 8px 6px -6px #999;
+        }
+    </style>
+  </head>
+  <body>
+    <!-- Nav Bar -->
+    <div class="navbar">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#">Profile</a></li>
+      </ul>
+    </div>
+
+    <div class="container">
+        <h1>Table</h1>
+        <table>
+            <thead>
+              <tr>
+                <th rowspan="2">Days</th>
+                <th colspan="6">Time</th>
+              </tr>
+              <tr>
+                <td>8:00</td>
+                <td>9:00</td>
+                <td>10:00</td>
+                <td>11:00</td>
+                <td>11:30</td>
+                <td>12:30</td>
+              </tr>
+              <tr>
+                <th>Mon</th>
+                <td>Course 1</td>
+                <td>Course 2</td>
+                <td>Course 3</td>
+                <td rowspan="5" id="break">Break</td>
+                <td>Course 5</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <th>Tue</th>
+                <td colspan="2"></td>
+                <td>Course 2</td>
+                <td>Course 4</td>
+                <td>Course 1</td>
+              </tr>
+              <tr>
+                <th>Wed</th>
+                <td>Course 3</td>
+                <td colspan="2"></td>
+                <td>Course 2</td>
+                <td></td>
+              </tr>
+              <tr>
+                <th>Thu</th>
+                <td rowspan="2">Course 4</td>
+                <td>Course 2</td>
+                <td>Course 3</td>
+                <td rowspan="2" colspan="2">Thesis</td>
+              </tr>
+              <tr>
+                <th>Fri</th>
+                <td></td>
+                <td>Course 1</td>
+              </tr>
+            </thead>
+          </table>
+
+          <h1>Table 2</h1>
+          <table>
+            <tr>
+              <th>Header</th> 
+              <th>Header</th>
+              <th>Header</th>
+              <th>Header</th>
+            </tr>
+            <tr>
+              <td rowspan="4">Span Rows</td>
+              <td colspan="3">Span Columns</td>
+            </tr>
+            <tr>
+              <td colspan="2">Span Columns</td>
+              <td rowspan="3">Span Both</td>
+            </tr>
+            <tr>
+              <td rowspan="2">Span Rows</td>
+              <td>Span Columns</td>
+            </tr>
+            <tr>
+              <td>Span Both</td>
+            </tr>
+          </table>
+        
+    </div>
+  </body>
+</html>
